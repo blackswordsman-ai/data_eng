@@ -8,4 +8,10 @@ data = {
 
 df = pd.DataFrame(data)
 
-print(df)
+# print(df)
+# print(df["salary"])
+
+high_salary = df[df["salary"] > 55000]
+
+print(high_salary)
+
